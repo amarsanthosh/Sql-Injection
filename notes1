@@ -8,4 +8,4 @@ goal = SQL injection attack that causes the application to display one or more u
 our attempts
 1.
 Pets ' AND unreleased = 1 --
-gives Internal sever error
+gives Internal sever error.
