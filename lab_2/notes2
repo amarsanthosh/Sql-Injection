@@ -1,0 +1,11 @@
+The Solution is simple
+        username -> administrator' --
+        password -> anyrandom
+
+The work is in automating it :
+    -> it generates a csrf token for every Session
+    -> 1st we need to create a Session and get the csrf token
+    -> Then to parse the response we use "BeautifulSoup"
+    -> after that we need to send the Post request
+    -> need to create a dictionory to match the fields of the csrf {csrf, username , password}
+    -> Finally check it by valuating if "Log out" is in response or not.
