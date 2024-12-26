@@ -1,0 +1,11 @@
+1. Sql vulnerability - product category
+
+query = SELECT * FROM products WHERE category = 'Gifts' AND released = 1
+
+goal = SQL injection attack that causes the application to display one or more unreleased products.
+
+
+our attempts
+1.
+Pets ' AND unreleased = 1 --
+gives Internal sever error.
