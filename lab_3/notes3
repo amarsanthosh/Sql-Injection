@@ -1,0 +1,14 @@
+we can obtain the Number of columns in a table by two ways
+    1. By using UNION
+    2. By using ORDER BY 
+
+1. payload --> ' UNION SELECT NULL,NULL,NULL --
+    (if the number is columns is 3 then the page will load correctly, else error... 
+    we need to increment the NULL iteratively if we get error.
+    no of NULL = no of columns we are assuming)
+
+2. payload --> ' ORDER BY 1 --
+    (if there is column 1 , it will be ordered in ascending order,
+    ORDER BY 2, if there is 2nd column,it will be ordered in ascending ordered,
+    we need to increment the value Iteratively, until error occurs,
+    if error occurs on ORDER BY 4, then there is 3 number of columns)           
