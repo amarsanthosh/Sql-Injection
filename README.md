@@ -1,2 +1,2 @@
-## portswigger , labs 
+## portswigger , lab exercises
 # Web security Academy 
